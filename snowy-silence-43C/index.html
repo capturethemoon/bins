@@ -22,7 +22,7 @@
       </ul>
       <p>{{itemCount}} things.</p>
       <p v-if="items.length === 0"><i>Nothing is epic :(</i></p>
-      <h2>--LONks--</h2>
+      <h2>Lonks</h2>
       <ul>
         <li v-for="lonk in links"><a v-bind:href="lonk[1]" v-bind:class="[lonk[2] ? 'virus' : 'notVirus', !lonk[3] ? 'notEpic' : '']">{{ lonk[0] }}</a></li>
       </ul>
