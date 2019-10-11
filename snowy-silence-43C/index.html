@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width">
   <title>Very epic vue.js</title>
   <script src="https://unpkg.com/vue"></script>
-  <style>.notEpic{background-color:#FF0000;} .virus{color:#FF00FF;} .notVirus{color:#00FF00;}</style>
+  <style>.notEpic{background-color:coral;} .virus{color:red;} .notVirus{color:green;}</style>
 <style id="jsbin-css">
 * {
-  font-family: sans-serif;
+  font-family: Arial;
 }
 </style>
 </head>
@@ -22,14 +22,14 @@
       </ul>
       <p>{{itemCount}} things.</p>
       <p v-if="items.length === 0"><i>Nothing is epic :(</i></p>
-      <h2>LONks</h2>
+      <h2>--LONks--</h2>
       <ul>
         <li v-for="lonk in links"><a v-bind:href="lonk[1]" v-bind:class="[lonk[2] ? 'virus' : 'notVirus', !lonk[3] ? 'notEpic' : '']">{{ lonk[0] }}</a></li>
       </ul>
-      
+
       <div id="form" v-if="state==='edit'"><input v-model="newItem" @keyup.enter="saveItem"/> <button class="btn btn-primary" v-bind:disabled="newItem.length === 0" v-on:click="saveItem">very epic</button></div>
     </div>
-    
+
     <script defer>
       var shoppingList = new Vue({
         el: "#shopping-list",
