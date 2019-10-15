@@ -2,11 +2,11 @@
 
 # JavaScript Bins
 
-These are my [jsbin.com](https://jsbin.com) experiments, that I use to learn about new things. If you have any improvements you want to make, please do - I appreciate all the help I get!
+These are my [jsbin.com](https://jsbin.com) experiments, that I use to learn about new things. If you have any improvements you want to make, please do - I appreciate all the help I can get!
 
 You also can use it with your own projects.
 
-Check more info here: [https://ictman1076.github.io/bins/](https://ictman1076.github.io/bins/)
+Check out more info here: [https://ictman1076.github.io/bins/](https://ictman1076.github.io/bins/)
 
 ## Contributing
 
